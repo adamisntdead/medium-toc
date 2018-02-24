@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './TOC.css';
+import React, { Component } from "react";
+import "./TOC.css";
 
 class TOC extends Component {
   render() {
@@ -7,9 +7,9 @@ class TOC extends Component {
       <div className="results">
         <h4>Table of Contents</h4>
         <ul>
-        {this.props.results.map((result, i) => {
-          return <li key={i}><a href={result.link}>{result.title}</a></li>
-        })}
+          {this.props.results.map((result, i) => {
+            return <li key={i}><a href={result.link}>{result.title}</a></li>;
+          })}
         </ul>
       </div>
     );
