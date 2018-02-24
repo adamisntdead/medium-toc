@@ -12,7 +12,7 @@ class App extends Component {
     this.state = {
       error: false,
       message:
-        "Just enter the url of a medium article and we'll create a table of contents.",
+        "Just enter the public url of a medium article and we'll create a table of contents.",
       loading: false,
       results: []
     };
@@ -21,15 +21,6 @@ class App extends Component {
     this.reset = this.reset.bind(this);
   }
 
-  reset() {
-    this.setState({
-      error: false,
-      message:
-        "Just enter the url of a medium article and we'll create a table of contents.",
-      loading: false,
-      results: []
-    });
-  }
 
   handleSubmit(url) {
     this.setState({
@@ -41,7 +32,7 @@ class App extends Component {
         if (results.results.length === 0) {
           this.setState({
             message:
-              "Couldn't find headings for this URL. Please check it is correct, and is a Medium article.",
+              "Couldn't find headings for this URL. Please check it is correct, and is a Medium article. If the article is a draft, use the 'share' url.",
             error: true,
             loading: false
           });
