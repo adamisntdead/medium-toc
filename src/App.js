@@ -70,7 +70,6 @@ class App extends Component {
           <Instruction error={this.state.error} message={this.state.message} />
           <Display
             results={this.state.results}
-            reset={this.reset}
             handleSubmit={this.handleSubmit}
           />
         </div>
