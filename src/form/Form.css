@@ -42,6 +42,10 @@ input 				{
 }
 input:focus 		{ outline:none; }
 
+input:invalid {
+  box-shadow: none;
+}
+
 /* LABEL ======================================= */
 label 				 {
   color:#999; 
