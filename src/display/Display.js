@@ -4,16 +4,8 @@ import UrlForm from '../form/Form';
 
 class Display extends Component {
   render() {
-
     if (this.props.results.length > 0) {
-      return (
-        <div>
-          <TOC results={this.props.results} /> 
-          <br />
-          <button href="/" className="button center">Create Another</button>
-        </div>
-      )
-
+      return <TOC results={this.props.results} /> 
     } else {
       return <UrlForm handleSubmit={this.props.handleSubmit} />
     }

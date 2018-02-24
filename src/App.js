@@ -17,6 +17,16 @@ class App extends Component {
     }
 
     this.handleSubmit = this.handleSubmit.bind(this)
+    this.reset = this.reset.bind(this)
+  }
+
+  reset() {
+    this.setState({
+      error: false,
+      message: 'Just enter the url of a medium article and we\'ll create a table of contents.',
+      loading: false,
+      results: []
+    })
   }
 
   handleSubmit(url) {
@@ -55,9 +65,9 @@ class App extends Component {
     return (
       <Loadable active={this.state.loading} spinner color="#00AB6C" background="white" text='Creating Your Table Of Contents...'>
         <div className="content">
-          <h1>Medium TOC</h1>
+          <h1><a href="/">Medium TOC</a></h1>
           <Instruction error={this.state.error} message={this.state.message} />
-          <Display results={this.state.results} handleSubmit={this.handleSubmit} />
+          <Display results={this.state.results} reset={this.reset} handleSubmit={this.handleSubmit} />
         </div>
       </Loadable>
     );
