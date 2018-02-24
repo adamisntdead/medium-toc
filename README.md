@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src=""/></div>
+<div style="text-align:center"><img src="https://github.com/adamisntdead/medium-toc/blob/master/resources/logo.png?raw=true"/></div>
 
 ---
 
