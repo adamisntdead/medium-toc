@@ -18,7 +18,6 @@ class App extends Component {
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.reset = this.reset.bind(this);
   }
 
 
