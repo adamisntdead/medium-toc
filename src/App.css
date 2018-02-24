@@ -1,0 +1,34 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 50%;
+  padding-top: 20vh;
+  word-wrap: break-word;
+  margin: auto;
+}
+
+@media (max-width: 750px) {
+  .content {
+    width: 80%;
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3.5rem;
+  color: #4A4A4A;
+  letter-spacing: 1.27px;
+  font-weight: bold;
+
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}

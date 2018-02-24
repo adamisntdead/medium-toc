@@ -1,0 +1,12 @@
+.instruction p {
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #AEAEAE;
+  letter-spacing: 0.71px;
+  width: 100;
+}
+
+.red {
+  color: #ff6464 !important;
+}
