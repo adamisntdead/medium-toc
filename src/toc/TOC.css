@@ -1,0 +1,9 @@
+.results {
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 30px;
+}
+
+.results a {
+  color: #000;
+}

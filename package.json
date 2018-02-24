@@ -1,5 +1,6 @@
 {
   "name": "medium-contents",
+  "homepage" : "https://mediumtoc.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
