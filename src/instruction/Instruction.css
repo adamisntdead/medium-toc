@@ -7,6 +7,15 @@
   width: 100;
 }
 
+.instruction a {
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: inherit;
+  letter-spacing: 0.71px;
+  width: 100;
+}
+
 .red {
   color: #ff6464 !important;
 }
