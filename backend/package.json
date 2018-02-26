@@ -1,0 +1,18 @@
+{
+  "name": "toc-backend",
+  "version": "1.0.0",
+  "description": "The Backend to https://www.mediumtoc.com/",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Adam Kelly",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
