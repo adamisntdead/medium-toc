@@ -1,14 +1,12 @@
-import React, { Component } from "react";
+import React from 'react'
 import TOC from "../toc/TOC";
 import UrlForm from "../form/Form";
 
-class Display extends Component {
-  render() {
-    if (this.props.results.length > 0) {
-      return <TOC results={this.props.results} />;
-    } else {
-      return <UrlForm handleSubmit={this.props.handleSubmit} />;
-    }
+const Display = ({results, handleSubmit}) => {
+  if (results.length > 0) {
+    return <TOC results={results} />;
+  } else {
+    return <UrlForm handleSubmit={handleSubmit} />;
   }
 }
 
