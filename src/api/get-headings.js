@@ -1,4 +1,4 @@
-const apiUrl = "https://toc-backend-lrdccexgec.now.sh/";
+const apiUrl = "https://toc-backend-oirlqadtnt.now.sh";
 function getHeadings(url) {
   const urlPath = url.replace(/^(http|https):\/\//, "");
 
