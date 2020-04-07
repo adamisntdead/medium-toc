@@ -11,7 +11,7 @@ function createTOC(uri) {
       // Get the headings
       let results = [];
       $("body")
-        .find("h2, h3, h4, h5, h6")
+        .find("h1, h2, h3, h4, h5, h6")
         .each((_, elem) => {
           const title = elem.children[0].data;
           const headingCode = elem.attribs.id;
